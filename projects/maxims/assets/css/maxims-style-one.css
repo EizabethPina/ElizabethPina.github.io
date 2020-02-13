@@ -1,0 +1,75 @@
+body {
+    background-color:antiquewhite;
+    background-image:url('../imgs/cake.gif');
+    background-size:115%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+
+a:link {
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    display: center;
+    text-align: center;
+}
+
+.text{
+    margin: auto 0;
+    text-align: center;
+}
+.color{
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+
+  color:red;
+  font-size:45px;
+  font-weight: bold;
+  position: absolute;
+  animation:colorchange 10s infinite alternate;
+
+}
+h4{
+    text-align:center;
+    color:aqua;
+    font-size: 15px;
+    
+}
+@keyframes colorchange {
+  10% {
+
+    color: #FF6264;
+  }
+
+  20% {
+
+    color: #EE3DFF;
+  }
+
+  30% {
+
+    color: #EE98F0;
+
+  }
+
+  30% {
+
+    color: #DA0CE8;
+  }
+
+  30% {
+
+    color: #FF0F6B;
+  }
+     10% {
+
+    color: #FF6264;
+}
+}

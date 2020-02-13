@@ -1,0 +1,18 @@
+body {
+    background-color:#FDF9AB;
+    background-image:url('../imgs/mac-n-cheese.gif');
+    background-size:130%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:200%;
+}
+.color{
+    color:#FA6054;
+    font-family: 'Barrio', cursive;
+    font-size: 60px;
+    text-align: left;
+}
+.spin{
+    
+}

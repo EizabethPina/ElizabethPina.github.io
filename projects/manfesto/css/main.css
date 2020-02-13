@@ -1,0 +1,62 @@
+body{
+    background-color:blanchedalmond;
+    background-image: image()
+}
+h1{
+    color: darkgreen
+}
+#lineOne {
+    color: forestgreen;
+}
+
+#lineTwo {
+    color:forestgreen
+}
+
+#lineThree {
+   color:yellowgreen
+  
+}
+
+#lineFour {
+    color: darkseagreen
+}
+#lineFive{
+    color: burlywood
+}
+#lineSix{
+    color:sandybrown
+}
+#lineSeven{
+    color:sandybrown
+}
+#lineEight{
+    color:orange
+}
+#lineNine{
+    color:darkorange
+}
+#lineTen{
+    color:coral
+}
+#lineEleven{
+    color:coral
+}
+#lineTwelve{
+    color:coral
+}
+#lineThirteen{
+    color:lightcoral
+}
+#lineFourteen{
+    color:lightcoral
+}
+#lineFifteen{
+    color:coral
+}
+#lineSixteen{
+    color:coral
+}
+#lineSeventeen{
+    color:orangered
+}

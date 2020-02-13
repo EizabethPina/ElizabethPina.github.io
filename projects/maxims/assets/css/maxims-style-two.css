@@ -1,0 +1,31 @@
+body {
+    background-color:antiquewhite;
+    background-image:url('../imgs/fries.gif');
+    background-size:115%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+.color{
+    color:orange;
+    font-family: 'Frijole', cursive;
+    font-size: 60px;
+}
+
+.marquee{
+    position: absolute;
+    white-space: nowrap;
+    animation: rightThenLeft 7s infinite alternate ;
+}
+
+h3{
+   text-align: center
+    
+}
+@keyframes rightThenLeft {
+    100%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+  
+}

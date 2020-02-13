@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 2em;
+    color: black;
+    font-family: Arial;
+}
+
+#please{
+    animation-name: expand;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#animate{
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+    
+}
+#content{
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes expand{
+    
+    0%{
+    font-size: 2em;
+    
+    }
+    100%{
+    font-size: 5em;
+        
+    }
+}
+ @keyframes colorChange{
+    0% {
+        color: black;
+    }
+    100% {
+  color: aquamarine;
+    }
+}
+@keyframes rotate{
+    0%{
+    transform:rotate(0)
+           
+    }
+    100%{
+    transform:rotate(275deg)
+    }
+           
+}

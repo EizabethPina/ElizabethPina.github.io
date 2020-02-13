@@ -1,0 +1,18 @@
+body {
+    background-color:antiquewhite;
+    background-image:url('../imgs/candy.gif');
+    background-size:120%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+.color{
+    color:#58D1D6;
+    font-family: 'Ribeye', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+   text-align: center

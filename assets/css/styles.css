@@ -1,0 +1,112 @@
+body {
+    background-color: #FEF1EB;
+   font-family: 'Sarabun', sans-serif;
+    color: #AD5923;
+    font-size: 12px;
+    text-align: center;
+}
+
+#Liz {
+    font-size: 105px;
+    font-kerning: normal
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px
+}
+
+nav {
+    display: inline-block;
+    margin: 1px;
+    font-size: 15px
+}
+h4{
+    font-size: 15px;
+    display:flex;
+    margin: 15px
+}
+
+ul {
+    /*   to get rid of the bullets in the list */
+    list-style-type: none;
+
+}
+
+li {
+    /*    To have them go next to each other*/
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
+
+a:link {
+    color:#AD5923;
+    text-decoration: none;
+}
+a:visited{
+    color:#AD5923;
+}
+
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+    color: #A3185B;
+    text-align: center;
+
+}
+
+
+.biopic{
+width: 200px; 
+        
+        
+    }
+
+.arena{
+    width:25px;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.twitter{
+    width:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pinterest{
+    width:20px;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+.instagram{
+    width:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner{
+    align-content: center;
+    width:600px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 60%
+}
+#bio{
+    
+align-content: space-around
+    text-align: center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.row {
+  display:flex;
+    position:relative;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+    position:relative;
+}
